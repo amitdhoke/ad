@@ -1,0 +1,120 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing:border_-box;
+}
+			      
+nav{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	height:50px;
+	
+}
+				  
+				   
+.logo{
+	background-image:url();
+    font-family:Helvetica;
+	color:white;
+	letter-spacing:2px;
+  text-transform:uppercase;
+				  
+}
+
+
+nav ul{
+   display:flex;
+   justify-content:space-between;
+   width:40%;
+   list-style:none;
+   font-family:Helvetica;
+   text-transform:uppercase;
+   text-decoration:none;
+   
+} 
+.navlinks a{
+	text-decoration:none;
+	color:#FAF9F9;
+	cursor:pointer;
+	letter-spacing:2px;
+	
+	
+} 
+.navlinks a:hover{
+	color:#242323;
+	background-color:#B3D6CC;
+	transition:0.5s ease;
+}
+.button-style{
+    background-color:#25B3BB;
+  border-radius:15px;
+  color: white;
+ font-size:14	px;
+  
+  text-decoration: none;
+  display: inline-block;
+  
+  cursor: pointer;
+
+
+}
+
+.marker{
+	font-family:cursive;
+	color:#35914C;
+	border-radius:2px;
+}
+
+body {
+	
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpapercave.com/wp/wp5146745.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+.span-to{
+	text-decoration:underline;
+	background-color:yellow;
+	font-size:20px;
+}
+.welcome-text{
+	color:white;
+	position:absolute;
+	top:50%;
+	right:80%;
+	
+	
+	text-align:center;
+	
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:25px;
+
+}
+#login{
+	color:white;
+	text-decoration:none;
+	position:absolute;
+	top:55%;
+	right:81%;
+	
+	
+	text-align:center;
+	
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:20px;
+
+}
+.login1{
+	text-decoration:none;
+	
+	color:#fff;
+	border:1px solid #fff;
+	
+}
+.login1:hover{
+	color:#779FC1;
+	transition:0.4s ease;
+}
